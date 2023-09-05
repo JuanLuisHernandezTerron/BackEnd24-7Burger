@@ -45,7 +45,7 @@ const updateAlimento = async function (req,res){
                     alergenos:arrayAlergenos,
                     tipoAlimento:req.body.tipoAlimento,
                     precio:req.body.precio,
-                    imagen:'http://localhost:3000/uploads/' + req.file.filename,
+                    imagen:'https://backend-247burger.onrender.com//uploads/' + req.file.filename,
                     extras:arrayExtras
                 };
             }
